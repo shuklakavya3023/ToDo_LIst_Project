@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Here we have added fevicon  -->
+
+  <link rel = "icon" type = "image/x-icon" href = "todo.png">
+
+   <!-- Linking styles.css file to html page -->
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Todo List Project</title>
+</head>
+<body>
+  <!-- Here we have done structure part of our todo list -->
+
+  <div class="container">
+    <h1>Todo List</h1>
+    <div class="add-task">
+      <input type="text" id="taskInput" placeholder="Enter your task">
+
+      <!-- Here we have created task adding button  -->
+
+      <button id="addTaskBtn">Add</button>
+    </div>
+    <div class="tasks">
+      <h2>Pending Tasks</h2>
+      <ul id="pendingTasks"></ul>
+      <h2>Completed Tasks</h2>
+      <ul id="completedTasks"></ul>
+    </div>
+  </div>
+
+  <!-- Linking script.js file to html -->
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

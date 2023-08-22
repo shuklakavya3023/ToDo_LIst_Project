@@ -1,0 +1,96 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('Background_Image.png');
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Adding styles to list container*/
+
+.container {
+  background-color: lightpink;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+.container h1 {
+  font-family: cursive;
+  font-size: 40px;
+  border: 5px dashed black;
+}
+
+h1 {
+  text-align: center;
+  color: #3498db;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Add Styles to Task Button*/
+
+#addTaskBtn {
+  font-size: 18px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tasks h2 {
+  color: #333;
+  font-family: cursive;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: black;
+}
+
+/* Add Styles to Delete button in todo list*/
+
+.delete-btn {
+  font-size: 18px;
+  color: whitesmoke;
+  cursor: pointer;
+  border: 3px solid orange;
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
